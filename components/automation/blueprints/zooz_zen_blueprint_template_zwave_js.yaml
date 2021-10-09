@@ -13,85 +13,85 @@ blueprint:
           integration: zwave_js
           manufacturer: Zooz
     up_1x:
-      name: Press On (1x)
+      name: Press On | UP paddle (1x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     up_2x:
-      name: Press On (2x)
+      name: Press On | UP paddle (2x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     up_3x:
-      name: Press On (3x)
+      name: Press On | UP paddle (3x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     up_4x:
-      name: Press On (4x)
+      name: Press On | UP paddle (4x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     up_5x:
-      name: Press On (5x)
+      name: Press On | UP paddle (5x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     up_held:
-      name: Press On (held)
+      name: Press On | UP paddle (held)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     up_released:
-      name: Release On
+      name: Release On | UP paddle
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     down_1x:
-      name: Press Off (1x)
+      name: Press Off | DOWN paddle (1x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     down_2x:
-      name: Press Off (2x)
+      name: Press Off | DOWN paddle (2x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     down_3x:
-      name: Press Off (3x)
+      name: Press Off | DOWN paddle (3x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     down_4x:
-      name: Press Off (4x)
+      name: Press Off | DOWN paddle (4x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     down_5x:
-      name: Press Off (5x)
+      name: Press Off | DOWN paddle (5x)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     down_held:
-      name: Press Off (held)
+      name: Press Off | DOWN paddle (held)
       description: Action to run on button press.
       default: []
       selector:
         action: {}
     down_released:
-      name: Release Off
+      name: Release Off | DOWN paddle
       description: Action to run on button press.
       default: []
       selector:
