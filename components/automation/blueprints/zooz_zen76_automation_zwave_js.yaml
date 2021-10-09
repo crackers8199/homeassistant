@@ -1,35 +1,17 @@
 blueprint:
-  name: Zooz Zen21
-  description: Create automations for the Zooz Zen21 using zwave_js
-  source_url: https://github.com/willheineman/homeassistant/blob/main/components/automation/blueprints/zooz_zen21_automation_zwave_js.yaml
+  name: Zooz ZEN76
+  description: Create automations for the Zooz ZEN76 using zwave-js
+  source_url: https://github.com/crackers8199/homeassistant/edit/main/components/automation/blueprints/zooz_zen76_automation_zwave_js.yaml
   domain: automation
   input:
     zooz_switch:
-      name: Zooz Zen21 Switch
+      name: Zooz ZEN76 Switch
       description: "List of available zwave devices to configure. Please
-      select the Zooz Zen Switch you want to setup."
+        select the Zooz ZEN Switch you want to setup."
       selector:
         device:
           integration: zwave_js
           manufacturer: Zooz
-          
-    target_device:
-      name: Target Device
-      description: "Select the device that the automation is intended
-      to target. This is typically the light or light group which
-      is controlled by the switch."
-      selector:
-        entity: 
-          domain: light
-          
-    all_lights:
-      name: All Lights
-      description: "Select the light group containing all of the 
-      basement lights. This will be used to turn all lights on
-      and off."
-      selector:
-        entity: 
-          domain: light
 
     up_1x:
       name: Press On (1x)
