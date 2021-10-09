@@ -10,7 +10,7 @@ blueprint:
         Zooz ZEN Switch you want to setup.
       selector:
         device:
-          integration: zwavejs2mqtt
+          integration: zwave_js
           manufacturer: Zooz
     up_1x:
       name: Press On (1x)
